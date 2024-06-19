@@ -1,0 +1,237 @@
+.my-5 , .new , .mt-5{
+  color: rgb(40, 7, 184);
+}
+
+
+
+
+:root {
+  --mainColor: rgb(233, 203, 71);
+}
+
+body {
+  color: var(--mainColor);
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  background-color: rgb(233, 203, 71);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--mainColor);
+  font-weight: 600;
+  letter-spacing: 0.9px;
+}
+
+::selection {
+  background-color: var(--mainColor);
+  color: #fff;
+}
+
+.button-container {
+  text-align: center;
+  
+
+}
+
+a {
+  cursor: pointer;
+}
+
+.mainColor {
+  color: var(--mainColor);
+}
+
+.btn-main {
+  --bs-btn-color: rgb(233, 203, 71);
+  --bs-btn-bg: rgb(233, 203, 71);
+  --bs-btn-border-color:  rgb(233, 203, 71);
+  --bs-btn-hover-color: rgb(233, 203, 71);
+  --bs-btn-hover-bg:  rgb(233, 203, 71);
+  --bs-btn-hover-border-color:  rgb(233, 203, 71);
+  --bs-btn-focus-shadow-rgb: rgb(233, 203, 71);
+  --bs-btn-active-color: rgb(233, 203, 71);
+  --bs-btn-active-bg:  rgb(233, 203, 71);
+  --bs-btn-active-border-color: rgb(233, 203, 71);
+}
+
+main {
+  min-height: 100vh;
+  background-image: url("../images/background.png");
+  background-size: cover;
+  background-position: center;
+}
+
+main nav {
+  box-shadow: 0px -8px 22px 4px rgba(0, 77, 165, 0.45);
+  background-color: rgb(233 203 71 / 43%) !important;
+}
+
+.navbar-toggler {
+  border: none;
+  color: var(--mainColor);
+  font-size: 1.375rem;
+}
+
+main .navbar-toggler:focus {
+  box-shadow: none;
+}
+
+main .form-control:focus {
+  border-color: #004da413;
+  box-shadow: 0 0 0 0.25rem rgba(0, 76, 163, 0.25);
+}
+
+.boxContainer {
+  max-width: 600px;
+  margin: auto;
+  background-color: rgb(253 253 253 / 43%);
+  box-shadow: -6px 10px 15px -5px rgba(0, 77, 165, 0.45);
+  border: #004da413 1px solid;
+}
+
+.swal-button {
+  background-color: var(--mainColor);
+  border-color: var(--mainColor);
+}
+
+.swal-button:not([disabled]):hover {
+  background-color:  rgb(233, 203, 71);
+  border-color:  rgb(233, 203, 71);
+}
+
+.button1{
+  font-size: 20px;
+  margin-bottom: 5px;
+  color:rgb(44, 12, 187);
+  width : 190px;
+  background-color: rgb(233, 203, 71);
+
+
+
+
+}
+
+.lettering{
+  color: rgb(44, 12, 187);
+  font-size: 25px;
+}
+
+@media screen and (max-width: 400px) {
+  :root {
+    font-size: 12px;
+  }
+
+  .button1{
+    font-size: 20px;
+    margin-bottom: 5px;
+    color:rgb(44, 12, 187);
+    width : 190px;
+    background-color: rgb(233, 203, 71);
+ 
+  }
+
+  .lettering{
+    color: rgb(44, 12, 187);
+    font-size: 20px;
+  }
+ 
+
+ 
+ @media screen and (max-width: 576px)
+   { 
+   
+   
+   
+   
+   .button1{
+            font-size: 20px;
+            margin-bottom: 5px;
+            margin-bottom: 5px;
+            color:rgb(44, 12, 187);
+            width : 190px;
+            background-color: rgb(233, 203, 71);
+         
+         
+         
+   
+         }
+
+         .lettering{
+          color: rgb(66, 14, 209);
+
+          font-size: 20px;
+        }     
+   
+   
+   }
+   
+   
+   @media screen and (max-width: 768px) 
+   
+   
+   {
+   
+   
+   
+   
+   
+   .button1{
+         font-size: 25px;
+         margin-bottom: 5px;
+         margin-bottom: 5px;
+         color:rgb(44, 12, 187);
+         width : 190px;
+         background-color: rgb(233, 203, 71);
+      
+   
+      
+   
+      }
+
+      .lettering{
+         color:  rgb(10, 52, 192);
+
+        font-size: 25px;
+      }
+   
+   
+   
+   
+   
+   
+   }
+   
+   
+   @media screen and (max-width: 992x) 
+   {
+   
+  
+   
+   .button1{
+         font-size: 27px;
+         margin-bottom: 5px;
+         margin-bottom: 5px;
+         color:rgb(44, 12, 187);
+         width : 190px;
+         background-color: rgb(233, 203, 71);
+
+      
+   
+   
+      }
+
+      .lettering{
+        color:  rgb(44, 12, 187);
+
+        font-size: 27px;
+      }
+   
+   }
+
+}
